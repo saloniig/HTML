@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+     ::-webkit-scrollbar {
+            width: 10px;
+        }
+        /* Track */
+        
+         ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+        /* Handle */
+        
+         ::-webkit-scrollbar-thumb {
+            background: #888;
+        }
+        /* Handle on hover */
+        
+         ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+        
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+            margin-top: 150px;
+        }
+        
+        li {
+            float: left;
+        }
+        
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        
+        li a:hover {
+            background-color: #111;
+        }
+        
+        .active {
+            background-color: rgb(130, 123, 212);
+        }
+        
+        .dropdown {
+            float: left;
+            overflow: hidden;
+        }
+        
+        .dropdown .dropbtn {
+            font-size: 16px;
+            border: none;
+            outline: none;
+            color: white;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+        }
+        
+        .navbar a:hover,
+        .dropdown:hover .dropbtn {
+            background-color: #111;
+        }
+        
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+        
+        .dropdown-content a {
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+        
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+        
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        
+        #content img {
+            position: absolute;
+            top: 300px;
+            right: 10px;
+            float: left;
+            margin-top: 20px;
+            margin-right: 10px;
+        }
+        
+        #contents img {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            margin-top: 200px;
+            margin-left: 10px;
+        }
+        
+        #conten img {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            margin-top: 9px;
+            margin-left: 10px;
+        }
+        
+        h {
+            position: relative;
+            top: 10%;
+            left: 20%;
+            font-family: Impact, Charcoal, sans-serif;
+            font-size: 40px;
+            word-spacing: 10px;
+            color: black text-align: center;
+        }
+        
+        h1 {
+            position: relative;
+            top: 375px;
+            left: 5%;
+            font-family: 'Alice';
+            font-size: 20px;
+            word-spacing: 10px;
+            color: black text-align: center;
+        }
+        
+        p {
+            position: relative;
+            top: 150px;
+            left: 5%;
+            font-family: 'Alice';
+            font-size: 20px;
+            word-spacing: 10px;
+            color: black text-align: center;
+        }
+        
+        h3 {
+            color: rgb(13, 13, 83);
+            font-size: 20px;
+        }
+        
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        
+        img {
+            top: 150px;
+            left: 5px;
+        }
+    }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li><a class="active" href="front.html">Home</a></li>
+        <li class="dropdown">
+            <button class="dropbtn">News
+      <i class="fa fa-caret-down"></i>
+    </button>
+            <div class="dropdown-content">
+                <a href="events.html">Events</a>
+                <a href="family.html">ISTE Family</a>
+                <a href="upcomings.html">Upcomings</a>
+
+            </div>
+            <li><a href="#contact">Contact</a></li>
+            <li class="dropdown">
+                <button class="dropbtn">About
+      <i class="fa fa-caret-down"></i>
+    </button>
+                <div class="dropdown-content">
+                    <a href="introduction.html">Introduction</a>
+                    <a href="iste_objective.html">ISTE Objective</a>
+                    <a href="overview.html">Overview</a>
+                    <a href="background.html">Background</a>
+
+                </div>
+
+    </ul>
+    <div id="row">
+        <div id="conten">
+            <img src='logo.jpeg' width='200px' height='120px' alt='ISTE' />
+
+
+            <!--  <div id="contents">
+    <img src='secret.bmp' width='200px' height='150px' alt='ISTE' />
+    </div>
+            <div id="content">
+                <img src='president.jpeg' width='200px' height='150px' alt='PRESIDENT' />
+            </div>-->
+        </div>
+        <h><b>INDIAN SOCIETY FOR TECHNICAL EDUCATION</b></h>
+        <h1><b>INTRODUCTION</b></h1>
+
+        <img src="president.jpeg" alt="" border="1" height="200" width="200" align:center></img>
+        <h3><b>PRESIDENT</b></h3>
+
+
+        <img src="secret.bmp" alt="" border="1" height="200" width="200 left:500px" align:center>
+        </img>
+
+
+
+
+        <p>
+
+
+            <b>The Indian Society for Technical Education (ISTE)</b> is the leading National Professional non-profit making Society for the Technical Education System in our country with the motto of Career Development of Teachers and Personality Development
+            of Students and overall development of our Technical Education System. Being the only national organisation of educators in the field of Engineering and Technology, ISTE effectively contributes in various missions of the Union Government.
+            The strength of ISTE is the strong base it has in technical education institutions in the country. At present, the ISTE has a very large and an effective membership base consisting of 124024 Life Members, 5 lakh Student members, 2734 Institutional
+            Members, 1369 Faculty Chapters, 1479 Student Chapters at institutional level and 17 Sections at State level. The major objective of the ISTE is to provide quality training programmes to teachers and administrators of technical institutions
+            to update their knowledge and skills in their fields of activity and to assist and contribute in the production and development of top quality professional engineers and technicians needed by the industry and other organisations. It organizes
+            an annual convention for faculty and students separately every year where a large number of technocrats, technical teachers, policy makers, experts from the industry etc. participate and interact. Every year a National Seminar with a specific
+            theme with respect to the latest development in the field of Science and Technology and societal problems is being arranged during the Annual convention and leading luminaries of technical education are invited to deliver special lectures
+            and delegates will present research papers. ISTE is actively involved in many activities conducted by All India Council for Technical Education New Delhi (AICTE) and National Board of Accreditation New Delhi (NBA). Recently ISTE was partner
+            to AICTE and NBA in the conduct of Second Chhatra Vishwakarma Award and WOSA 2018 respectively. ISTE is having collaboration and MoUs with government organsations and various Universities for the promotion of technical education system in
+            the country.
+
+
+        </p>
+</body>
+
+</html>
